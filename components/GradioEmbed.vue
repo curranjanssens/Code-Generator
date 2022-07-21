@@ -4,10 +4,11 @@
 
 <script>
 export default {
-    name: "SQLCodeGenerator",
-    data() {
-        return {
-            space: "Gradio-Blocks/Words_To_SQL"
+    name: "GradioEmbed",
+    props: {
+        space: {
+            type: String,
+            required: true
         }
     }
 }
