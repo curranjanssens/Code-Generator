@@ -18,7 +18,7 @@ export default {
     },
     computed: {
         pageTitle() {
-            return `${this.title} - AI by CJanssen`
+            return `${this.title} - AI by CJanssens`
         }
     }
 }

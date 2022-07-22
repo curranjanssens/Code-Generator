@@ -12,7 +12,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'AI by CJanssen',
+    title: 'AI by CJanssens',
     htmlAttrs: {
       lang: 'en',
     },
