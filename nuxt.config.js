@@ -23,7 +23,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: [{ hid: 'gradio', src: 'https://gradio.s3-us-west-2.amazonaws.com/3.0.18/gradio.js', defer: true, type: 'module' }]
+    script: [{ hid: 'gradio', src: 'https://gradio.s3-us-west-2.amazonaws.com/3.1.1/gradio.js', defer: true, type: 'module' }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -48,4 +48,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // Vue Options
+  vue: {
+    compilerOptions: {
+      isCustomElement: tag => ['gradio-app'].includes(tag)
+    }
+  }
 }

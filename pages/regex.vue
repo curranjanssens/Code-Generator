@@ -1,5 +1,5 @@
 <template>
-    <gradio-embed space="Curranj/Regex" />
+    <gradio-embed space="Curranj/Regex" title="Regex Code Generator" />
 </template>
 
 <script>
