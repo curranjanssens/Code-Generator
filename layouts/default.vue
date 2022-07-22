@@ -1,6 +1,8 @@
 <template>
     <div>
         <SiteHeader />
-        <Nuxt />
+        <SiteBody>
+            <Nuxt />
+        </SiteBody>
     </div>
 </template>

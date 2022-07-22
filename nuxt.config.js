@@ -12,7 +12,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'sql-code-generator',
+    title: 'AI by CJanssen',
     htmlAttrs: {
       lang: 'en',
     },
